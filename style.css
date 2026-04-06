@@ -1,0 +1,84 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background: black;
+  color: white;
+  padding: 8px;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* NAV (Flex) */
+.nav-flex {
+  display: flex;
+  justify-content: space-around;
+  background: #444;
+  padding: 10px;
+  list-style: none;
+}
+
+.nav-flex a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hover effect */
+.nav-flex a:hover {
+  color: #00adb5;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+
+/* FLEX */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* Images (Box Model) */
+img {
+  border: 3px solid #333;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* nth-child */
+.flex img:nth-child(even) {
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
